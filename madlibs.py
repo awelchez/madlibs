@@ -4,10 +4,6 @@ import sys
 
 systemplatform = platform.system()
 
-def restart_program():
-    python = sys.executable
-    os.execl(python, python, * sys.argv)
-
 def startMadLibs1():
     print("Please state a name 1: ")
     name1 = str(input("> "))
